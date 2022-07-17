@@ -82,7 +82,7 @@ html {
 
 .wave-bg {
   display: block;
-  height: 50px;
+  height: 220px;
   width: 100%;
   min-width: 600px;
   transform-origin: top;
@@ -142,8 +142,6 @@ img.avatar {
   overflow: hidden;
   text-align: center;
   margin: 0;
-  margin-bottom: 25px;
-  
 }
 
 .portfolio-item figcaption {
@@ -172,10 +170,10 @@ img.avatar {
   font-weight: 600;
   margin-bottom: 0;
 }
-/* 
+
 .portfolio-item:hover figcaption {
   transform: translate3d(0, 0, 0);
-} */
+}
 
 @media (max-width: 767px) {
   /* disable animations on mobile */
