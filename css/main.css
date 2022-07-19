@@ -142,6 +142,11 @@ img.avatar {
   overflow: hidden;
   text-align: center;
   margin: 0;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mg{
+  margin: 15px;
 }
 
 .portfolio-item figcaption {
