@@ -1,0 +1,22 @@
+.hero-image{
+    position: absolute;
+    height: 100%;
+    width: 33rem;
+    right: 0;
+    display: flex;
+    margin-right: 5rem;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 900px) {
+        display: none;
+      }
+}
+
+.BgAnimation__svg {
+    @media screen and (max-width: 900px) {
+        display: none;
+        height: 20px;
+      }
+}
+ 
