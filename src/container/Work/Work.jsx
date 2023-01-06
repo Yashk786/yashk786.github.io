@@ -57,7 +57,7 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        Port<span>folio</span> 
+        Port<span>folio</span>
       </h2>
 
       <motion.div
@@ -113,6 +113,11 @@ const Work = () => {
           </div>
         ))}
       </motion.div>
+      <div className="more__link">
+        <a href="https://github.com/Yashk786" target="_blank">
+          More projects
+        </a>
+      </div>
     </>
   );
 };

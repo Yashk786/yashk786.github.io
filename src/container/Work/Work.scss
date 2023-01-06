@@ -160,3 +160,36 @@
     top: -25px;
   }
 }
+
+.more__link{
+  a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    flex-direction: column;
+    display: inline-block;
+    position: relative;
+    opacity: 0.85;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--secondary-color);
+      opacity: 1;
+    }
+    &::before {
+      transition: 300ms;
+      height: 2px;
+      content: "";
+      position: absolute;
+      background-color: var(--secondary-color);
+      width: 0%;
+      bottom: 0px;
+    }
+
+    &:hover::before {
+      width: 100%;
+    }
+  }
+}

@@ -71,31 +71,34 @@
 }
 
 .resume {
-  display: inline-block;
-  padding: 0.5rem 1.5rem;
-  border: 1px solid var(--gray-color);
-  border-width: 1px;
-  background: transparent;
-  font-size: 0.75rem;
-  border-radius: 10px;
-  line-height: 1.25rem;
-  margin-top: 1rem;
-
   color: var(--gray-color);
   text-decoration: none;
   flex-direction: column;
-  border-color: var(--gray-color);
-
+  display: inline-block;
+  position: relative;
+  opacity: 0.85;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
+  margin-top: 2rem;
 
   transition: all 0.3s ease-in-out;
 
   &:hover {
     color: var(--secondary-color);
-    border-color: var(--secondary-color);
-    transform: scale(1.02);
+    opacity: 1;
+  }
+  &::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: var(--secondary-color);
+    width: 0%;
+    bottom: 0px;
+  }
 
+  &:hover::before {
+    width: 100%;
   }
 
   @media screen and (max-width: 900px) {
