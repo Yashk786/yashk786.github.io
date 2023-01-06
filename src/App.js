@@ -15,5 +15,7 @@ const App = () => (
     <Footer />
   </div>
 );
-
+{
+  /* https://yashk786.github.io/ */
+}
 export default App;
