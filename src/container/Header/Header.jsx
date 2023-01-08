@@ -2,20 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
-import { images } from "../../constants";
 import "./Header.scss";
 import Background from "./Background";
 
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duration: 1,
-      ease: "easeInOut",
-    },
-  },
-};
 
 const Header = () => (
   <motion.div className="app__header header__flex ">

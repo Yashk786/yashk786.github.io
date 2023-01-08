@@ -6,7 +6,6 @@ import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
-import { images } from "../../constants";
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -19,6 +18,7 @@ const Navbar = () => {
           href="https://www.linkedin.com/in/yash-kumar-48310819b/"
           target="_blank"
         >
+
           <h1 className="name__logo">Yash</h1>
         </a>
       </div>

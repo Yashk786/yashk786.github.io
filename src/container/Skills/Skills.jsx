@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Tooltip as ReactTooltip } from "react-tooltip";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";
@@ -60,8 +59,6 @@ const skills = [
     icon: images.github,
   }
 ];
-
-const experiences = [];
 
 const Skills = () => {
   return (

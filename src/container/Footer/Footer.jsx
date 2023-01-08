@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Footer.scss";
 
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 
 const Footer = () => {
-  const [loading, setLoading] = useState(false);
-
   const [state, handleSubmit] = useForm("mpzezlel");
 
   if (state.succeeded) {
@@ -61,7 +59,7 @@ const Footer = () => {
           />
         </div>
         <button type="submit" className="p-text">
-          {!loading ? "Send Message" : "Sending..."}
+          Send Message
         </button>
       </form>
 
