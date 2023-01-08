@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/yashk786.github.io/static/css/main.517d7edb.css",
+    "main.js": "/yashk786.github.io/static/js/main.b4059176.js",
+    "static/media/yash.jpg": "/yashk786.github.io/static/media/yash.56326d28b2069be91a68.jpg",
+    "static/media/bgIMG.png": "/yashk786.github.io/static/media/bgIMG.c39101e520e2997fc6d4.png",
+    "static/media/bgWhite.png": "/yashk786.github.io/static/media/bgWhite.79658cadae50b3b16ee5.png",
+    "static/media/mytravel.png": "/yashk786.github.io/static/media/mytravel.6d71682cadc7e4a1870c.png",
+    "static/media/crossDevelopment.png": "/yashk786.github.io/static/media/crossDevelopment.1e4678fe9c92492ff4cb.png",
+    "static/media/linkedin.png": "/yashk786.github.io/static/media/linkedin.7eed7c2568c54fa02716.png",
+    "static/media/budgety.png": "/yashk786.github.io/static/media/budgety.c2a67286c5694486547c.png",
+    "static/media/foodOrder.png": "/yashk786.github.io/static/media/foodOrder.ee0025fd184644ef97a1.png",
+    "static/media/web.png": "/yashk786.github.io/static/media/web.e7d62e4810f1a6fb61b7.png",
+    "static/media/frontEnd.png": "/yashk786.github.io/static/media/frontEnd.183ea0c35acd6826c900.png",
+    "static/media/maintenance.png": "/yashk786.github.io/static/media/maintenance.5e1100e339bd01778582.png",
+    "static/media/medium.png": "/yashk786.github.io/static/media/medium.5bfd9fc6126ac155af51.png",
+    "static/media/bootstrap.png": "/yashk786.github.io/static/media/bootstrap.a692f04a045f8133192d.png",
+    "static/media/email.png": "/yashk786.github.io/static/media/email.58555dbc7ff11849c594.png",
+    "static/media/tailwind.png": "/yashk786.github.io/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
+    "static/media/tracker.png": "/yashk786.github.io/static/media/tracker.4ec1d16796448935ad47.png",
+    "static/media/redux.png": "/yashk786.github.io/static/media/redux.c9be37e0fece29c624b0.png",
+    "static/media/sass.png": "/yashk786.github.io/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/node.png": "/yashk786.github.io/static/media/node.8683d89cf78ffae3d1f7.png",
+    "static/media/github.png": "/yashk786.github.io/static/media/github.c389b23f357a182d9c14.png",
+    "static/media/next.png": "/yashk786.github.io/static/media/next.331efda6800a28298b1b.png",
+    "static/media/mobile.png": "/yashk786.github.io/static/media/mobile.145d9ce0157a56f8fcd8.png",
+    "static/media/css.png": "/yashk786.github.io/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/git.png": "/yashk786.github.io/static/media/git.a54d3fa44e02f2f61e69.png",
+    "index.html": "/yashk786.github.io/index.html",
+    "static/media/circle.svg": "/yashk786.github.io/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "main.517d7edb.css.map": "/yashk786.github.io/static/css/main.517d7edb.css.map",
+    "main.b4059176.js.map": "/yashk786.github.io/static/js/main.b4059176.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.517d7edb.css",
+    "static/js/main.b4059176.js"
+  ]
+}
